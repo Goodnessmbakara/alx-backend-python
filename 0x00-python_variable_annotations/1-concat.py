@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 
-def concat(str1: str, str2: str) -> str:
+
+"""Module for concatenating two strings."""
+
+def concat(str1:str,str2:str)->str:
     """
-    Concatenates two strings and returns the result.
-
-    Args:
-        str1 (str): The first string.
-        str2 (str): The second string.
-
-    Returns:
-        str: The concatenated string.
+    Function concat: Concatenates Strings.
+    
+    Args: 
+    str1 (string): First string.
+    str2 (string): Second  string.
+    
     """
     return str1 + str2
+  
