@@ -2,6 +2,7 @@
 
 """Module that returns float sum of two floats."""
 
+
 def add(a_float:float, b_float:float) -> float:
     """Function add sums to floats
   
