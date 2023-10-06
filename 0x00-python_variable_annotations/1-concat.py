@@ -1,16 +1,9 @@
 #!/usr/bin/env python3
+"""Write a type-annotated function concat that takes a string str1
+and a string str2 as arguments and returns a concatenated string
+"""
 
 
-"""Module for concatenating two strings."""
-
-def concat(str1:str,str2:str)->str:
-    """
-    Function concat: Concatenates Strings.
-    
-    Args: 
-    str1 (string): First string.
-    str2 (string): Second  string.
-    
-    """
+def concat(str1: str, str2: str) -> str:
+    """Concatenate two strings"""
     return str1 + str2
-  
